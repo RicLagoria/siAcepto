@@ -59,7 +59,6 @@ sequenceDiagram
     
     alt Cupo excedido
         API-->>App: 409 Cupo excedido<br/>(sugerir borrar propias)
-        deactivate API
     else Cupo disponible
         loop Por cada archivo
             API->>API: Validar tamaño (<=12MB)<br/>formato (JPG/PNG/HEIC)<br/>resolución (<=36MP)
@@ -74,8 +73,8 @@ sequenceDiagram
             end
         end
         API-->>App: Resumen subida (ok/fallidos)
-        deactivate API
     end
+    deactivate API
     
     App->>U: Confirmación y feed actualizado
 ```
@@ -190,16 +189,14 @@ sequenceDiagram
 
     alt Foto oculta y usuario no Organizador
         API-->>App: 403 Prohibido etiquetar
-        deactivate API
     else Nombre fuera de lista o límite excedido
         API-->>App: 400 Error (no listado / límite)
-        deactivate API
     else OK
         API->>DB: Insert etiqueta (fotoId, personaId, autor, fecha)
         API-->>App: 200 Etiqueta agregada
-        deactivate API
         App->>U: Confirmación + actualización del filtro
     end
+    deactivate API
 ```
 
 <details>
@@ -494,7 +491,6 @@ sequenceDiagram
     alt No existe like previo
         MM-->>API: No
         API-->>AppA: 200 OK (sin match)
-        deactivate API
     else Sí existe like(B,A)
         MM-->>API: Sí
         API->>DB: Crear Match(A,B)
@@ -502,8 +498,8 @@ sequenceDiagram
         Notif-->>AppA: Push "¡Es un match!"
         Notif-->>AppB: Push "¡Es un match!"
         API-->>AppA: 200 OK (match)
-        deactivate API
     end
+    deactivate API
 
     Note over AppA: No hay "dislike".<br/>Saltar no registra acción.
 ```
