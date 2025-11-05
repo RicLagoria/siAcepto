@@ -446,7 +446,7 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 ## 👨‍💻 Equipo
 
-**Desarrollador Principal**: Ricardo Augusto Lagoria  
+**Desarrolladores**: Santiago Godoy Cabrera, Jorge Iriarte Chamorro, Ricardo Augusto Lagoria, Mariano Zabala.  
 **Email**: rlagoria@ubp.edu.ar  
 **GitHub**: [@RicLagoria](https://github.com/RicLagoria)
 
