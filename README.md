@@ -14,6 +14,7 @@ Plataforma integral para la organización y gestión de casamientos, que permite
 - [Características Principales](#-características-principales)
 - [Módulos del Sistema](#-módulos-del-sistema)
 - [Documentación](#-documentación)
+- [Gestión del Proyecto](#-gestión-del-proyecto)
 - [Arquitectura](#-arquitectura)
 - [Tecnologías](#-tecnologías)
 - [Instalación](#-instalación)
@@ -140,6 +141,25 @@ Todos los diagramas están disponibles en formato **Mermaid** (se visualizan en 
 - Flujo de subida de fotos
 - Flujo de matching
 - Flujo de creación de perfil
+
+---
+
+## 📊 Gestión del Proyecto
+
+### Tablero Jira
+
+El proyecto se gestiona utilizando Jira para el seguimiento de épicas, historias de usuario y tareas técnicas:
+
+🔗 **[Tablero de Proyecto en Jira](https://santigodoy52.atlassian.net/jira/software/projects/GFTI/boards/1/backlog?atlOrigin=eyJpIjoiYzAwOTEzMDhhNzMwNGM0ZjgwM2VlYTBiYmEzNTU0OWYiLCJwIjoiaiJ9)**
+
+### Organización del Backlog
+
+El backlog está organizado en:
+- **10 Épicas** principales
+- **31 Historias de Usuario** (HU)
+- **17 Tareas Técnicas** (TT)
+
+Consulta el archivo [epicas.md](./epicas.md) para ver el detalle completo de todas las historias de usuario y tareas técnicas.
 
 ---
 
