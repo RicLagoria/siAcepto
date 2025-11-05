@@ -39,7 +39,7 @@ Este diagrama muestra el flujo completo de subida de una o múltiples fotos a la
 - **Validación fallida**: Se rechaza ese archivo específico con causa detallada
 - **Subida parcial**: Se publican las fotos válidas y se reportan las fallidas
 
-### Diagrama (Mermaid - se visualiza en GitHub)
+### Diagrama
 
 ```mermaid
 sequenceDiagram
@@ -166,7 +166,7 @@ Este diagrama muestra el proceso de etiquetado de personas en las fotos usando e
 - **Nombre no listado**: Se rechaza (no se permiten etiquetas libres)
 - **Límite excedido**: Se rechaza si ya hay 10 etiquetas
 
-### Diagrama (Mermaid - se visualiza en GitHub)
+### Diagrama
 
 ```mermaid
 sequenceDiagram
@@ -298,7 +298,7 @@ Este diagrama muestra el proceso completo de creación o edición de un perfil d
 - **Bio >280 caracteres**: Error de validación
 - **Edad fuera de rango**: Error de validación
 
-### Diagrama (Mermaid - se visualiza en GitHub)
+### Diagrama
 
 ```mermaid
 sequenceDiagram
@@ -466,7 +466,7 @@ Este diagrama muestra el flujo de exploración de perfiles en el feed de Tinder,
 - **Sin más perfiles**: Mensaje "No hay más perfiles según tus preferencias"
 - **Rate limit excedido**: Pausa temporal con mensaje (>200 likes/hora)
 
-### Diagrama (Mermaid - se visualiza en GitHub)
+### Diagrama
 
 ```mermaid
 sequenceDiagram

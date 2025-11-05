@@ -31,7 +31,7 @@ Este diagrama muestra el flujo completo desde que un usuario selecciona fotos ha
 - Generación de versión Display (≤2048px, ~1.5MB)
 - Generación de versión Thumbnail (≤400px, ~100KB)
 
-### Diagrama (Mermaid - se visualiza en GitHub)
+### Diagrama
 
 ```mermaid
 flowchart TD
@@ -182,7 +182,7 @@ Este diagrama muestra el flujo de decisión cuando un usuario da "like" a otro p
 - ✅ Al crear match, se notifica instantáneamente a ambos usuarios
 - ✅ El match habilita automáticamente un chat entre ambos
 
-### Diagrama (Mermaid - se visualiza en GitHub)
+### Diagrama
 
 ```mermaid
 flowchart TD
@@ -335,7 +335,7 @@ Este diagrama muestra el flujo completo para que un invitado soltero cree su per
 - ✍️ **Bio limitada**: Máximo 280 caracteres
 - 🎂 **Rango de edad**: 18-80 años
 
-### Diagrama (Mermaid - se visualiza en GitHub)
+### Diagrama
 
 ```mermaid
 flowchart TD

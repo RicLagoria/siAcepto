@@ -83,7 +83,7 @@ end legend
 
 ---
 
-## Diagrama Mermaid (Alternativa compatible con GitHub)
+## Diagrama Mermaid
 
 ```mermaid
 graph LR
